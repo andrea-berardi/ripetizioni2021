@@ -67,7 +67,7 @@ int main(void) {
         Pulizia finale, non necessaria in questo caso, ma è buona pratica
     */
     free(vini); // è buona regola deallocare la memoria che non si usa più, dopo aver usato malloc()
-    vini = NULL; // segnamo anche la variabile come NULL
+    vini = NULL; // segniamo anche la variabile come NULL
 
     return 0;
 }

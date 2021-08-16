@@ -12,12 +12,12 @@ Repo degli esercizi per le ripetizioni date nel 2021.
 - [x] Esercizio 1
 - [x] Esercizio 2
 - [x] Esercizio 3
-- [] Esercizio 4
+- [ ] Esercizio 4
 - [x] Esercizio 5
-- [] Esercizio 6
-- [] Esercizio 7
-- [] Esercizio 8
+- [ ] Esercizio 6
+- [ ] Esercizio 7
+- [ ] Esercizio 8
 - [x] Esercizio 9
-- [] Esercizio 10
-- [] Esercizio 11
-- [] Esercizio 12
+- [ ] Esercizio 10
+- [ ] Esercizio 11
+- [ ] Esercizio 12

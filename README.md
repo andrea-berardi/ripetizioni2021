@@ -30,9 +30,12 @@ Esercizi risolti della cartella `recupero_estivo`
 
 Le soluzioni seguono in buona parte le richieste degli esercizi, ma le modalità di risoluzione potrebbero non essere le migliori, oppure le più facili in assoluto, oppure potrebbero comprendere concetti al di fuori del programma.  
 Non seguirle pari-pari!  
+
 Spesso, piuttosto che avere a che fare con `malloc()` e simili è meglio dare una lunghezza fissa ad array etc... oppure usare C++ che rende alcuni aspetti più facili.  
 Ho preferito usare C per pura comodità mia, a dispetto delle richieste degli esercizi che volevano C++.  
-Non è nemmeno detto che corrispondano a ciò che ho spiegato durante la lezione, infatti spesso glisso riguardo all'allocazione dinamica.  
-Tutti gli esercizi sono comunque ANSI C, per cui anche compilando con il compiler per C++ funzioneranno (in teoria, si spera).  
+
+Non è nemmeno detto che le soluzioni corrispondano a ciò che ho spiegato durante la lezione, infatti spesso glisso riguardo all'allocazione dinamica.  
+Tutti gli esercizi sono comunque ANSI C, per cui anche compilando con il compiler per C++ funzioneranno (in teoria, si spera). 
+ 
 Non fatemi mettere una licenza, per l'amor di Dio, riuscite a gestirvi anche senza.  
 Per problemi riguardo agli esercizi aprite una Issue o fate una PR. Ma anche no, grazie.

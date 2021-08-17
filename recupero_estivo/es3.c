@@ -16,20 +16,24 @@ int main(void) {
     /*
         Definizione delle variabili (gli array paralleli, come da esplicita richiesta dell'esercizio)
     */
-    char **nome = malloc(n * sizeof(char*)); // array dei nomi dei vini, di cui allochiamo n blocchi
+    char **nome = malloc(sizeof(char*) * n); // array dei nomi dei vini, di cui allochiamo n blocchi
+    if (nome == NULL) { // se il vettore è NULL abbiamo avuto un errore
+        printf("Errore durante l'allocazione del vettore\n");
+        exit(1); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
+    }
 
     char *tipo; // array del tipo dei vini
     tipo = (char*)malloc(sizeof(char) * n); // allochiamo n blocchi di memoria di tipo char
     if (tipo == NULL) { // se il vettore è NULL abbiamo avuto un errore
         printf("Errore durante l'allocazione del vettore\n");
-        exit(1); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
+        exit(2); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
     }
 
     float *prezzo; // array del prezzo dei vini
     prezzo = (float*)malloc(sizeof(float) * n); // allochiamo n blocchi di memoria di tipo float
     if (prezzo == NULL) { // se il vettore è NULL abbiamo avuto un errore
         printf("Errore durante l'allocazione del vettore\n");
-        exit(2); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
+        exit(3); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
     }
 
     /*
@@ -92,7 +96,7 @@ int main(void) {
     printf("ELENCO VINI ROSSI\n"); // caps perché sì
     for (size_t i = 0; i < n; ++i)
         if (tipo[i] == 'R')
-            printf("Nome: %-50s Prezzo unitario: €%.2f\n", nome[i], prezzo[i]);
+            printf("%zu) Nome: %-50s Prezzo unitario: €%.2f\n", i + 1, nome[i], prezzo[i]);
 
     return 0;
 }

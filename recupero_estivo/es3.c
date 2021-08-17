@@ -38,8 +38,7 @@ int main(void) {
     for (size_t i = 0; i < n; ++i) {
         nome[i] = malloc(CHARS * sizeof(char)); // allochiamo 50 chars per l'elemento i dell'array
         printf("Inserisci il nome del %zu° vino (<50 caratteri): ", i + 1);
-        scanf(" %[^\n]s", nome[i]);
-        //fgets(nome[i], CHARS, stdin); // siccome il nome potrebbe avere degli spazi e vogliamo leggerli, usiamo fgets()
+        scanf(" %[^\n]s", nome[i]); // ignoriamo ogni whitespace e ogni "a capo"
 
         do { // usiamo un do-while perché vogliamo che il ciclo venga eseguito almeno una volta
             printf("Inserisci il tipo del %zu° vino, B per Bianco e R per Rosso: ", i + 1);

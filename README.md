@@ -35,7 +35,7 @@ Spesso, piuttosto che avere a che fare con `malloc()` e simili è meglio dare un
 Ho preferito usare C per pura comodità mia, a dispetto delle richieste degli esercizi che volevano C++.  
 
 Non è nemmeno detto che le soluzioni corrispondano a ciò che ho spiegato durante la lezione, infatti spesso glisso riguardo all'allocazione dinamica.  
-Tutti gli esercizi sono comunque ANSI C, per cui anche compilando con il compiler per C++ funzioneranno (in teoria, si spera). 
- 
+Tutti gli esercizi sono comunque ANSI C, per cui anche compilando con il compiler per C++ funzioneranno (in teoria, si spera).
+
 Non fatemi mettere una licenza, per l'amor di Dio, riuscite a gestirvi anche senza.  
 Per problemi riguardo agli esercizi aprite una Issue o fate una PR. Ma anche no, grazie.

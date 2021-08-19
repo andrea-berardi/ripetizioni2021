@@ -100,5 +100,12 @@ int main(void) {
         tot += (giorni_assenza[i] * DURATA + ore_assenza[i]);
     printf("Ore di assenza media pro capite: %.2f\n", tot / n); // tot / n è il totale delle ore di assenza diviso il numero di studenti
 
+    free(nome);
+    nome = NULL;
+    free(giorni_assenza);
+    giorni_assenza = NULL;
+    free(ore_assenza);
+    ore_assenza = NULL;
+
     return 0;
 }

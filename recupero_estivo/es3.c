@@ -98,5 +98,12 @@ int main(void) {
         if (tipo[i] == 'R')
             printf("%zu) Nome: %-50s Prezzo unitario: €%.2f\n", i + 1, nome[i], prezzo[i]);
 
+    free(nome);
+    nome = NULL;
+    free(tipo);
+    tipo = NULL;
+    free(prezzo);
+    prezzo = NULL;
+
     return 0;
 }

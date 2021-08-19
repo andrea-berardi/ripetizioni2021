@@ -20,7 +20,7 @@ Esercizi risolti della cartella `recupero_estivo`
 - [ ] Esercizio 7
 - [ ] Esercizio 8
 - [x] Esercizio 9
-- [X] Esercizio 10
+- [x] Esercizio 10
 - [ ] Esercizio 11
 - [ ] Esercizio 12
 

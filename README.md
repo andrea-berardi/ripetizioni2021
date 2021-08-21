@@ -17,7 +17,7 @@ Esercizi risolti della cartella `recupero_estivo`
 - [x] Esercizio 4
 - [x] Esercizio 5
 - [x] Esercizio 6
-- [ ] Esercizio 7
+- [x] Esercizio 7
 - [x] Esercizio 8
 - [x] Esercizio 9
 - [x] Esercizio 10

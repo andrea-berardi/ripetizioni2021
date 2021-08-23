@@ -104,7 +104,10 @@ int main(void) {
     printf("ELENCO SPESE CONDOMINIALI\n");
     for (size_t i = 0; i < n; ++i)
         printf("Il Sig. %s deve pagare %.2f€\n", condominio[i].nome, condominio[i].dim * 1.5);
-    
+
+    /*
+        Pulizia finale
+    */    
     free(condominio);
     condominio = NULL;
 

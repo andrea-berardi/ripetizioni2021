@@ -21,6 +21,7 @@ int main(void) {
         printf("3) Elenco provvigioni di ogni mese\n");
         printf("4) Fatturato medio primi 6 mesi\n");
         printf("5) Esci\n");
+        printf("SCELTA: ");
 
         scanf("%d", &scelta);
 
@@ -76,7 +77,6 @@ int main(void) {
                 break;
         }
     }
-    
 
     return 0;
 }

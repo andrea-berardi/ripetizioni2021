@@ -19,6 +19,7 @@ int main(void) {
         printf("2) Bambino, Adolescente, Adulto o Anziano?\n");
         printf("3) Per cosa può votare?\n");
         printf("4) Esci\n");
+        printf("SCELTA: ");
 
         scanf("%d", &scelta);
 

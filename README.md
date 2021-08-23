@@ -4,7 +4,7 @@ Repo degli esercizi per le ripetizioni date nel 2021.
 
 ## Esercizi per Recupero Estivo
 
-[x] Esercizi risolti della cartella `recupero_estivo`
+Esercizi risolti della cartella `recupero_estivo` - tutti.
 
 - [x] Esercizio 1
 - [x] Esercizio 2

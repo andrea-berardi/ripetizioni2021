@@ -106,3 +106,9 @@ In ogni caso a lezione uso per semplicità gli array paralleli, ma faccio sapere
 ### Esercizio 12
 
 Vedi sopra
+
+## Considerazioni finali
+
+Pensavo inoltre che non ho la certezza che alcuni dei magheggi con la `scanf()` funzionino su ogni OS, ma non mi metto di certo a verificare.
+
+Ogni esercizio _works on my machine_, che è ciò che importa, no? Testati su GNU/Linux.

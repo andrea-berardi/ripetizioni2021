@@ -19,7 +19,7 @@ Esercizi risolti della cartella `recupero_estivo`
 - [x] Esercizio 11
 - [ ] Esercizio 12
 
-## NB
+## NB (per gli alunni)
 
 > Ossia Nota Bene, non Non Badare
 
@@ -35,7 +35,7 @@ Tutti gli esercizi sono comunque ANSI C, per cui anche compilando con il compile
 Non fatemi mettere una licenza, per l'amor di Dio, riuscite a gestirvi anche senza.  
 Per problemi riguardo agli esercizi aprite una Issue o fate una PR. Ma anche no, grazie.
 
-## Mettiamo le mani avanti... ancora
+## Mettiamo le mani avanti... ancora (per i prof.)
 
 > Spieghiamo o ripetiamo il perché di alcune scelte estremamente discutibili
 

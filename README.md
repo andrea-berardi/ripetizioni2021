@@ -4,7 +4,7 @@ Repo degli esercizi per le ripetizioni date nel 2021.
 
 ## Esercizi per Recupero Estivo
 
-Esercizi risolti della cartella `recupero_estivo`
+[x] Esercizi risolti della cartella `recupero_estivo`
 
 - [x] Esercizio 1
 - [x] Esercizio 2
@@ -17,7 +17,7 @@ Esercizi risolti della cartella `recupero_estivo`
 - [x] Esercizio 9
 - [x] Esercizio 10
 - [x] Esercizio 11
-- [ ] Esercizio 12
+- [x] Esercizio 12
 
 ## NB (per gli alunni)
 
@@ -105,4 +105,4 @@ In ogni caso a lezione uso per semplicità gli array paralleli, ma faccio sapere
 
 ### Esercizio 12
 
-ToDo
+Vedi sopra

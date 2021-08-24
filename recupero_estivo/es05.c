@@ -8,6 +8,8 @@ int main(void) {
     for (size_t i = 0; i < DIM; ++i) {
         printf("Inserisci il peso del %zu° iscritto: ", i + 1);
         scanf("%f", &massa[i]);
+
+        printf("\n"); // solo per separare un input dal successivo
     }
 
     /*

@@ -15,6 +15,7 @@ int main(void) {
     while (1) {
         int scelta;
 
+        printf("\n"); // solo per separare un input dal successivo
         printf("ELABORAZIONE FATTURATI\n");
         printf("1) Volte in cui l'agente fatturato >5000€ al mese\n");
         printf("2) Totale annuo fatturato e provvigioni\n");

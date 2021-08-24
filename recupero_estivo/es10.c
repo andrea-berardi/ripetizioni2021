@@ -8,6 +8,8 @@ int main(void) {
     for (size_t i = 0; i < GIORNI; ++i) {
         printf("Inserisci l'incasso del giorno %zu: ", i + 1);
         scanf("%f", &incasso[i]);
+
+        printf("\n"); // solo per separare un input dal successivo
     }
 
     /*

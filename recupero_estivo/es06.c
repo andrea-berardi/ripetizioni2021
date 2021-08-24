@@ -55,7 +55,7 @@ int main(void) {
         scanf("%d", &ore_assenza[i]);
         ore_assenza[i] += tmp_ore_assenze;
 
-        printf("\n"); // solo per separare un vino dal successivo
+        printf("\n"); // solo per separare un input dal successivo
     }
 
     /*

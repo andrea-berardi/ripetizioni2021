@@ -53,7 +53,7 @@ int main(void) {
         printf("Inserisci il prezzo del %zu° vino: ", i + 1);
         scanf("%f", &prezzo[i]);
 
-        printf("\n"); // solo per separare un vino dal successivo
+        printf("\n"); // solo per separare un input dal successivo
     }
 
     /*

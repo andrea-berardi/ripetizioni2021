@@ -54,6 +54,8 @@ int main(void) {
 
         printf("Numero di biglietti venduti del %zu° film: ", i + 1);
         scanf("%d", &biglietti[i]);
+
+        printf("\n"); // solo per separare un input dal successivo
     }
 
     /*

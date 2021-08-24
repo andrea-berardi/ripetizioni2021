@@ -14,6 +14,7 @@ int main(void) {
     while (1) {
         int scelta;
 
+        printf("\n"); // solo per separare un input dal successivo
         printf("VALUTAZIONE ETÀ\n");
         printf("1) Maggiorenne o Minorenne?\n");
         printf("2) Bambino, Adolescente, Adulto o Anziano?\n");

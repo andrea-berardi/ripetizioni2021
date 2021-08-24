@@ -11,8 +11,9 @@ int main(void) {
     for (size_t i = 0; i < DIM; ++i) { // ciclo per popolare l'array
         printf("Inserisci il voto del diplomato %zu: ", i + 1); // +1 perché normalmente contiamo da 1, non da 0
         scanf("%d", &diplomati[i]);
+
+        printf("\n"); // solo per separare un input dal successivo
     }
-    printf("\n");
 
     /*
         es. 1

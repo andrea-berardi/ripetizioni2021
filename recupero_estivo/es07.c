@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #define CST_GIORNALIERO 35 // l'auto sostitutiva costa 35€ al giorno
-#define PRZ_AL_KM 0.15 // 15c ogni Km percorso
+#define PRZ_AL_KM 0.15 // 0.15€ ogni Km percorso
 
 int main(void) {
     float costo_pezzi; // costo pezzi di ricambio

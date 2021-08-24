@@ -9,6 +9,8 @@ int main(void) {
     for (size_t i = 0; i < DIM; ++i) { // qua carichiamo i nostri valori
         printf("Numero %zu: ", i + 1);
         scanf("%d", &a[i]);
+
+        printf("\n"); // solo per separare un input dal successivo
     }
 
     int mag = 0; // contatore di quanti valori sono maggiori del primo valore

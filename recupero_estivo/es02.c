@@ -30,8 +30,9 @@ int main(void) {
     for (size_t i = 0; i < n; ++i) {
         printf("Immetti il prezzo del %zu° vino: ", i + 1); // +1 perché noi contiamo da 1, non da 0
         scanf("%f", &vini[i]);
+
+        printf("\n"); // solo per separare un input dal successivo
     }
-    printf("\n");
 
     /*
         es. 1

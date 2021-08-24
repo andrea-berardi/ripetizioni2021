@@ -33,6 +33,8 @@ int main(void) {
 
         printf("Inserisci mq dell'appartamento %zu: ", i + 1);
         scanf("%f", &condominio[i].dim);
+
+        printf("\n"); // solo per separare un input dal successivo
     }
 
     /*

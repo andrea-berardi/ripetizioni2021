@@ -17,7 +17,7 @@ int main(void) {
     */
     int c = 0; // contatore di quanti iscritti hanno una massa fra 80 e 100 Kg inclusi
     for (size_t i = 0; i < DIM; ++i)
-        if (massa[i] >= 80 && massa[i] <= 100)
+        if (massa[i] >= 80.0 && massa[i] <= 100.0)
             ++c;
     printf("Ci sono %d iscritti con una massa fra 80 e 100 Kg inclusi\n", c);
 
@@ -26,7 +26,7 @@ int main(void) {
     */
     c = 0; // contatore di quanti iscritti hanno una massa minore di 90 Kg, azzerando il precedente contatore
     for (size_t i = 0; i < DIM; ++i)
-        if (massa[i] < 90)
+        if (massa[i] < 90.0)
             ++c;
     printf("Ci sono %d iscritti con una massa inferiore a 90 Kg\n", c);
 
@@ -44,7 +44,7 @@ int main(void) {
     totale = 0.0; // azzeriamo la variabile per salvarci la massa totale di chi è oltre 100 Kg
     c = 0; // azzeriamo il contatore di prima per riutilizzarlo, ci serve per calcolare la media
     for (size_t i = 0; i < DIM; ++i)
-        if (massa[i] > 100)
+        if (massa[i] > 100.0)
             totale += massa[i], ++c;
     printf("La massa media degli iscritti con massa oltre 100Kg è %.2f\n", totale / c);
 

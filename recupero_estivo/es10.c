@@ -25,7 +25,7 @@ int main(void) {
     */
     int count = 0; // contatore di quanti giorni con l'incasso fra 200 e 500
     for (size_t i = 0; i < GIORNI; ++i)
-        if (incasso[i] >= 200 && incasso[i] <= 500)
+        if (incasso[i] >= 200.0 && incasso[i] <= 500.0)
             ++count;
     printf("L'incasso è stato fra 200 e 500 per %d volte\n", count);
 
@@ -56,7 +56,7 @@ int main(void) {
     */
    printf("ELENCO GIORNI CON INCASSO >1000 EURO\n");
     for (size_t i = 0; i < GIORNI; ++i)
-        if (incasso[i] > 1000)
+        if (incasso[i] > 1000.0)
             printf("%zu\n", i + 1);
 
     return 0;

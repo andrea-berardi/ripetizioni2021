@@ -77,14 +77,16 @@ int main(void) {
     /*
         es. 3
     */
-    size_t indice; // indice dell'array che indica il film che ha venduto di più
     float max = prezzo[0] * biglietti[0]; // incasso film che ha venduto di più, trovato facendo prezzo per i biglietti venduti
     for (size_t i = 0; i < n; ++i)
-        if (prezzo[i] * biglietti[i] > max) {
+        if (prezzo[i] * biglietti[i] > max)
             max = prezzo[i] * biglietti[i];
-            indice = i;
-        }
-    printf("Il film con l'incasso maggiore è \"%s\" (%.2f€)\n", titolo[indice], max);
+
+    printf("FILM CON INCASSO MAGGIORE\n");
+    for (size_t i = 0; i < n; ++i)
+        if (prezzo[i] * biglietti[i] >= max)
+            printf("> %s", titolo[i]);
+    printf("\n");
 
     /*
         es. 4

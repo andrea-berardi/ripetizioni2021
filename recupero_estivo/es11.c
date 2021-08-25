@@ -21,7 +21,7 @@ int main(void) {
     scanf("%d", &n);
 
     Appartamento *condominio; // il condominio è un insieme di appartamenti
-    condominio = (Appartamento*)malloc(sizeof(Appartamento) * n); // allochiamo il vettore, n blocchi di dimensione Appartamento
+    condominio = malloc(sizeof(Appartamento) * n); // allochiamo il vettore, n blocchi di dimensione Appartamento
     if (condominio == NULL) { // se il vettore è NULL abbiamo avuto un errore
         printf("Errore durante l'allocazione del vettore\n");
         exit(1); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore

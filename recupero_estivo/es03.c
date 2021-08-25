@@ -23,14 +23,14 @@ int main(void) {
     }
 
     char *tipo; // array del tipo dei vini
-    tipo = (char*)malloc(sizeof(char) * n); // allochiamo n blocchi di memoria di tipo char
+    tipo = malloc(sizeof(char) * n); // allochiamo n blocchi di memoria di tipo char
     if (tipo == NULL) { // se il vettore è NULL abbiamo avuto un errore
         printf("Errore durante l'allocazione del vettore\n");
         exit(2); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
     }
 
     float *prezzo; // array del prezzo dei vini
-    prezzo = (float*)malloc(sizeof(float) * n); // allochiamo n blocchi di memoria di tipo float
+    prezzo = malloc(sizeof(float) * n); // allochiamo n blocchi di memoria di tipo float
     if (prezzo == NULL) { // se il vettore è NULL abbiamo avuto un errore
         printf("Errore durante l'allocazione del vettore\n");
         exit(3); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore

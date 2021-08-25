@@ -10,7 +10,7 @@ int main(void) {
     scanf("%d", &n);
 
     float *prezzo;
-    prezzo = (float*)malloc(sizeof(float) * n);
+    prezzo = malloc(sizeof(float) * n);
     if (prezzo == NULL) { // se il vettore è NULL abbiamo avuto un errore
         printf("Errore durante l'allocazione del vettore\n");
         exit(1); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
@@ -23,14 +23,14 @@ int main(void) {
     }
 
     char *genere; // array del genere dei film
-    genere = (char*)malloc(sizeof(char) * n); // allochiamo n blocchi di memoria di tipo char
+    genere = malloc(sizeof(char) * n); // allochiamo n blocchi di memoria di tipo char
     if (genere == NULL) { // se il vettore è NULL abbiamo avuto un errore
         printf("Errore durante l'allocazione del vettore\n");
         exit(3); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
     }
 
     int *biglietti; // numero di biglietti venduti
-    biglietti = (int*)malloc(sizeof(int) * n);
+    biglietti = malloc(sizeof(int) * n);
     if (genere == NULL) { // se il vettore è NULL abbiamo avuto un errore
         printf("Errore durante l'allocazione del vettore\n");
         exit(4); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore

@@ -3,7 +3,7 @@
 
 #define DIM 50 // massimo numero di studenti, non obbligatorio ma meglio averlo
 #define CHARS 20 // massima lunghezza dei nomi degli studenti
-#define DURATA 6 // durata di un giorno di lezione, 6 ore per l'esercizio corrente
+#define DURATA 6.0 // durata di un giorno di lezione, 6 ore per l'esercizio corrente
 
 int main(void) {
     int n = 0; // numero di studenti, che chiederemo all'utente
@@ -23,14 +23,14 @@ int main(void) {
     }
 
     int *giorni_assenza; // array dei giorni di assenza
-    giorni_assenza = (int*)malloc(sizeof(int) * n); // allochiamo n blocchi di memoria di tipo int
+    giorni_assenza = malloc(sizeof(int) * n); // allochiamo n blocchi di memoria di tipo int
     if (giorni_assenza == NULL) { // se il vettore è NULL abbiamo avuto un errore
         printf("Errore durante l'allocazione del vettore\n");
         exit(2); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
     }
 
     int *ore_assenza; // array delle ore di uscite anticipate ed entrate in ritardo
-    ore_assenza = (int*)malloc(sizeof(int) * n); // allochiamo n blocchi di memoria di tipo int
+    ore_assenza = malloc(sizeof(int) * n); // allochiamo n blocchi di memoria di tipo int
     if (ore_assenza == NULL) { // se il vettore è NULL abbiamo avuto un errore
         printf("Errore durante l'allocazione del vettore\n");
         exit(3); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
@@ -72,7 +72,7 @@ int main(void) {
     */
     printf("ELENCO STUDENTI\n"); // caps perché sì
     for (size_t i = 0; i < n; ++i)
-        printf("%zu) Nome: %-20s Ore totali assenze: %d\n", i, nome[i], giorni_assenza[i] * DURATA + ore_assenza[i]);
+        printf("%zu) Nome: %-20s Ore totali assenze: %.0f\n", i, nome[i], giorni_assenza[i] * DURATA + ore_assenza[i]);
 
     /*
         es. 3

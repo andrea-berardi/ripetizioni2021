@@ -17,7 +17,7 @@ int main(void) {
         alloco un array di dimensione n per i vini
     */
     float *vini; // array dei prezzi dei vini
-    vini = (float*)malloc(sizeof(float) * n); // allochiamo n blocchi di memoria di tipo float
+    vini = malloc(sizeof(float) * n); // allochiamo n blocchi di memoria di tipo float
     if (vini == NULL) { // se il vettore è NULL abbiamo avuto un errore
         printf("Errore durante l'allocazione del vettore\n");
         exit(1); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore

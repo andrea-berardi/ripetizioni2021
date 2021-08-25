@@ -31,7 +31,7 @@ Ho preferito usare C per pura comodità mia, a dispetto delle richieste degli es
 
 Non è nemmeno detto che le soluzioni corrispondano a ciò che ho spiegato durante la lezione, infatti spesso glisso riguardo all'allocazione dinamica.  
 Tutti gli esercizi sono comunque ANSI C, ~per cui anche compilando con il compiler per C++ funzioneranno (in teoria, si spera)~.
-**Rimossa compatbilità con C++**: rimossi tutti i cast alle `malloc()` non necessari in C ma richiesti in C++. Vedi [Issue #2](https://github.com/andrea-berardi/ripetizioni2021/issues/2).
+**Rimossa compatbilità con C++**: rimossi tutti i cast alle `malloc()` non necessari in C ma richiesti in C++. Vedi [Issue #2](https://github.com/andrea-berardi/ripetizioni2021/issues/2#issuecomment-905052323).
 
 Non fatemi mettere una licenza, per l'amor di Dio, riuscite a gestirvi anche senza.  
 Per problemi riguardo agli esercizi aprite una Issue o fate una PR. Ma anche no, grazie.

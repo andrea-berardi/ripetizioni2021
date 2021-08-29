@@ -16,7 +16,7 @@ Ho scelto questo testo perché... nulla, è quello usato nelle classi degli alun
 
 Esercizi risolti della cartella `recupero_estivo` - tutti.
 
-+ [x] Esercizio 1
+[x] Esercizio 1
 - [x] Esercizio 2
 - [x] Esercizio 3
 - [x] Esercizio 4

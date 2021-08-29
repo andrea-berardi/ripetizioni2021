@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #define MESI 12 // numero di mesi su cui svolgeremo i calcoli
-#define PROVVIGIONE 10 // percentuale della provvisione (10%)
+#define PROVVIGIONE 10 // percentuale della provvigione (10%)
 
 int main(void) {
     float fatturati[MESI]; // array dove salveremo il fatturato dell'agente di commercio

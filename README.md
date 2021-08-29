@@ -27,6 +27,8 @@ Di seguito l'elenco degli esercizi svolti, nella dir `esercizi_libro`, a sua vol
 
 Esercizi risolti della cartella `recupero_estivo` - tutti.
 
+Questi sono esercizi lasciati da una docente agli alunni con il debito formativo in Informatica frequentanti la classe terza. Sono esercizi semplici ma non possono essere risolti nel modo migliore perché devo aderire al programma svolto. Nei paragrafi successivi chiarisco la situazione.
+
 - [x] Esercizio 01
 - [x] Esercizio 02
 - [x] Esercizio 03
@@ -40,7 +42,7 @@ Esercizi risolti della cartella `recupero_estivo` - tutti.
 - [x] Esercizio 11
 - [x] Esercizio 12
 
-## NB (per gli alunni)
+### NB (per gli alunni)
 
 > Ossia Nota Bene, non Non Badare
 
@@ -57,7 +59,7 @@ Tutti gli esercizi sono comunque ANSI C, ~per cui anche compilando con il compil
 Non fatemi mettere una licenza, per l'amor di Dio, riuscite a gestirvi anche senza.  
 Per problemi riguardo agli esercizi aprite una Issue o fate una PR. Ma anche no, grazie.
 
-## Mettiamo le mani avanti... ancora (per i prof.)
+### Mettiamo le mani avanti... ancora (per i prof.)
 
 > Spieghiamo o ripetiamo il perché di alcune scelte estremamente discutibili
 
@@ -65,7 +67,7 @@ Come mai ho fatto questo piuttosto che quello? Beh, comodità e pigrizia, soprat
 
 Inoltre, mi è stato detto da alcuni ragazzi che certi prof. prediligono schifezze quali variabili globali, dichiarazioni di variabili nello stesso punto a inizio programma (anziché vicino al punto di utilizzo) e simili: ponendo sia vero ciò che mi è stato detto, in questi casi la cortesia di aderire alle richieste dei professori viene di gran lunga superata dalla necessità di evitare tali indecenze.
 
-## Considerazioni finali
+### Considerazioni finali
 
 Pensavo inoltre che non ho la certezza che alcuni dei magheggi con la `scanf()` funzionino su ogni OS, ma non mi metto di certo a verificare.
 

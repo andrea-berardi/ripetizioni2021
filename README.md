@@ -46,7 +46,7 @@ Questi sono esercizi lasciati da una docente agli alunni con il debito formativo
 
 > Ossia Nota Bene, non Non Badare
 
-Le soluzioni seguono in buona parte le richieste degli esercizi, ma le modalità di risoluzione potrebbero non essere le migliori (non definiamo mai una funzione - e invece...), oppure le più facili in assoluto, oppure potrebbero comprendere concetti al di fuori del programma.  
+Le soluzioni seguono in buona parte le richieste degli esercizi, ma le modalità di risoluzione potrebbero non essere le migliori (non definiamo mai una funzione. **Edit**: e invece...), oppure le più facili in assoluto, oppure potrebbero comprendere concetti al di fuori del programma.  
 Non seguirle pari-pari!  
 
 Spesso, piuttosto che avere a che fare con `malloc()` e simili è meglio dare una lunghezza fissa ad array etc... oppure usare C++ che rende alcuni aspetti più facili.  

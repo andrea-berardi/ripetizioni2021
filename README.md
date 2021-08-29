@@ -2,11 +2,21 @@
 
 Repo degli esercizi per le ripetizioni date nel 2021.
 
+## Esercizi sparsi
+
+Esercizi scelti a caso dal libro _C++. Teoria e ambiente di programmazione_ (**ISBN-10**: `8826816743`, **ISBN-13**: `978-8826816746`) di Agostino Lorenzi e Vittorio Moriggia.
+
+Siccome non ho voglia di studiarmi come funziona la SIAE per queste cose mi limiterò a pubblicare le soluzioni e **non** il testo degli esercizi. Chi non avesse il libro in questione può acquistarlo, prenderlo in prestito in biblioteca o piratarlo... però suvvia, seriamente, non fate i morti di fame, su Amazon lo si trova usato a 5€.
+
+Ho scelto questo testo perché... nulla, è quello usato nelle classi degli alunni che seguo. Per carità, libro ben fatto e tutto quello che vuoi, ma non penso che alle superiori spiegheranno mai come implementare una lista collegata o un albero binario, per cui nella realtà è abbastanza overkill per il suo scopo, difatti vedo spesso il libro intonso, comprato "tanto per".
+
+- test
+
 ## Esercizi per Recupero Estivo
 
 Esercizi risolti della cartella `recupero_estivo` - tutti.
 
-- [x] Esercizio 1
++ [x] Esercizio 1
 - [x] Esercizio 2
 - [x] Esercizio 3
 - [x] Esercizio 4

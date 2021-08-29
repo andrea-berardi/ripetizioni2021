@@ -10,21 +10,30 @@ Siccome non ho voglia di studiarmi come funziona la SIAE per queste cose mi limi
 
 Ho scelto questo testo perché... nulla, è quello usato nelle classi degli alunni che seguo. Per carità, libro ben fatto e tutto quello che vuoi, ma non penso che alle superiori spiegheranno mai come implementare una lista collegata o un albero binario, per cui nella realtà è abbastanza overkill per il suo scopo, difatti vedo spesso il libro intonso, comprato "tanto per".
 
-- test
+Di seguito l'elenco degli esercizi svolti, nella dir `esercizi_libro`, a sua volta suddivisa in cartelle per le varie pagine:
+
+- pag. 304
+  - [x] es. 24
+  - [x] es. 25
+  - [x] es. 26
+  - [ ] es. 30
+- pag. 302
+  - [ ] es. 06
+  - [ ] es. 09
 
 ## Esercizi per Recupero Estivo
 
 Esercizi risolti della cartella `recupero_estivo` - tutti.
 
-[x] Esercizio 1
-- [x] Esercizio 2
-- [x] Esercizio 3
-- [x] Esercizio 4
-- [x] Esercizio 5
-- [x] Esercizio 6
-- [x] Esercizio 7
-- [x] Esercizio 8
-- [x] Esercizio 9
+- [x] Esercizio 01
+- [x] Esercizio 02
+- [x] Esercizio 03
+- [x] Esercizio 04
+- [x] Esercizio 05
+- [x] Esercizio 06
+- [x] Esercizio 07
+- [x] Esercizio 08
+- [x] Esercizio 09
 - [x] Esercizio 10
 - [x] Esercizio 11
 - [x] Esercizio 12

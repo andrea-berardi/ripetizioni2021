@@ -1,0 +1,4 @@
+Riga 1: #includere è sbagliato
+Riga 4: il commento viene aperto e non chiuso
+Riga 6: non si specifica da dove prendere il cout e non viene messo il testo fra virgolette
+Riga 9: non esiste la funzione scrivi, bisogna usare cout

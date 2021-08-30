@@ -24,8 +24,8 @@ Di seguito l'elenco degli esercizi svolti, nella dir `esercizi_libro`, a sua vol
   - [x] es. 24
   - [x] es. 25
   - [x] es. 26
-  - [ ] es. 28
-  - [ ] es. 29
+  - [x] es. 28
+  - [x] es. 29
   - [x] es. 30
 
 ## Esercizi per Recupero Estivo

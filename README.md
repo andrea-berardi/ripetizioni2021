@@ -18,7 +18,7 @@ Di seguito l'elenco degli esercizi svolti, nella dir `esercizi_libro`, a sua vol
   - [x] es. 25
   - [x] es. 26
   - [ ] es. 29
-  - [ ] es. 30
+  - [x] es. 30
 - pag. 302
   - [ ] es. 06
   - [ ] es. 09

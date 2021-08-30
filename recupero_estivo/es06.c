@@ -7,7 +7,7 @@
 
 int main(void) {
     int n = 0; // numero di studenti, che chiederemo all'utente
-    while (n <= 0 && n >= 0) { // continua a chiedere quanti sono gli studenti fino a che non abbiamo un numero fra 0 e DIM
+    while (n <= 0 && n >= DIM) { // continua a chiedere quanti sono gli studenti fino a che non abbiamo un numero fra 0 e DIM
         printf("Quanti sono gli studenti (fra 1 e %d)? ", DIM);
         scanf("%d", &n);
     }

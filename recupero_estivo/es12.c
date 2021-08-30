@@ -31,7 +31,7 @@ int main(void) {
 
     int *biglietti; // numero di biglietti venduti
     biglietti = malloc(sizeof(int) * n);
-    if (genere == NULL) { // se il vettore è NULL abbiamo avuto un errore
+    if (biglietti == NULL) { // se il vettore è NULL abbiamo avuto un errore
         printf("Errore durante l'allocazione del vettore\n");
         exit(4); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
     }

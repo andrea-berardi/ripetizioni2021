@@ -7,7 +7,7 @@
 
 int main(void) {
     int n = 0; // numero di studenti, che chiederemo all'utente
-    while (n <= 0 && n >= 0) { // continua a chiedere quanti sono gli studenti fino a che non abbiamo un numero fra 0 e DIM
+    while (n <= 0 && n >= DIM) { // continua a chiedere quanti sono gli studenti fino a che non abbiamo un numero fra 0 e DIM
         printf("Quanti sono gli studenti (fra 1 e %d)? ", DIM);
         scanf("%d", &n);
     }
@@ -46,7 +46,7 @@ int main(void) {
             exit(4); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
         }
         printf("Inserisci il nome del %zu° studente (<50 caratteri): ", i + 1);
-        scanf(" %[^\n]s", nome[i]); // ignoriamo ogni whitespace e ogni "a capo"
+        scanf(" %[^\n]50s", nome[i]); // ignoriamo ogni whitespace e ogni "a capo"
 
         printf("Immettere i giorni di assenza: ");
         scanf("%d", &giorni_assenza[i]);

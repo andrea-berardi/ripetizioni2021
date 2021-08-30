@@ -39,7 +39,7 @@ int main(void) {
             exit(4); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
         }
         printf("Nome del %zu° partecipante: ", i + 1);
-        scanf(" %[^\n]s", nome[i]); // ignoriamo ogni whitespace e ogni "a capo"
+        scanf(" %[^\n]50s", nome[i]); // ignoriamo ogni whitespace e ogni "a capo"
 
         categoria[i] = malloc(sizeof(char) * LEN); // allochiamo 50 chars per l'elemento i dell'array
         if (categoria[i] == NULL) { // se è NULL abbiamo avuto un errore
@@ -47,7 +47,7 @@ int main(void) {
             exit(5); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
         }
         printf("Categoria del %zu° partecipante: ", i + 1);
-        scanf(" %[^\n]s", categoria[i]); // ignoriamo ogni whitespace e ogni "a capo"
+        scanf(" %[^\n]50s", categoria[i]); // ignoriamo ogni whitespace e ogni "a capo"
 
         printf("Tempo del %zu° partecipante: ", i + 1);
         scanf("%f", &tempo[i]);

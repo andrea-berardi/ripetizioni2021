@@ -29,7 +29,7 @@ int main(void) {
             exit(3); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
         }
         printf("Nome del %zu° studente: ", i + 1);
-        scanf(" %[^\n]s", nome[i]); // ignoriamo ogni whitespace e ogni "a capo"
+        scanf(" %[^\n]50s", nome[i]); // ignoriamo ogni whitespace e ogni "a capo"
 
         printf("Voto del %zu° studente: ", i + 1);
         scanf("%f", &voto[i]);

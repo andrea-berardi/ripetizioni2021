@@ -24,4 +24,6 @@ int main(void) {
         if (prezzo[i] > max)
             max = prezzo[i];
     printf("Prezzo maggiore: %.2f\n", max);
+
+    return 0;
 }

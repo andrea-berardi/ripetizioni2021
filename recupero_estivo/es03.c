@@ -46,7 +46,7 @@ int main(void) {
             exit(4); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
         }
         printf("Inserisci il nome del %zu° vino (<50 caratteri): ", i + 1);
-        scanf(" %[^\n]s", nome[i]); // ignoriamo ogni whitespace e ogni "a capo"
+        scanf(" %[^\n]50s", nome[i]); // ignoriamo ogni whitespace e ogni "a capo"
 
         do { // usiamo un do-while perché vogliamo che il ciclo venga eseguito almeno una volta
             printf("Inserisci il tipo del %zu° vino, B per Bianco e R per Rosso: ", i + 1);

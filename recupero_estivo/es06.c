@@ -46,7 +46,7 @@ int main(void) {
             exit(4); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
         }
         printf("Inserisci il nome del %zu° studente (<50 caratteri): ", i + 1);
-        scanf(" %[^\n]s", nome[i]); // ignoriamo ogni whitespace e ogni "a capo"
+        scanf(" %[^\n]50s", nome[i]); // ignoriamo ogni whitespace e ogni "a capo"
 
         printf("Immettere i giorni di assenza: ");
         scanf("%d", &giorni_assenza[i]);

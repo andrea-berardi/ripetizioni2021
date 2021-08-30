@@ -29,7 +29,7 @@ int main(void) {
 
     for (size_t i = 0; i < n; ++i) {
         printf("Nome del proprietario %zu: ", i + 1);
-        scanf(" %[^\n]s", condominio[i].nome); // ignoriamo ogni whitespace e ogni "a capo"
+        scanf(" %[^\n]50s", condominio[i].nome); // ignoriamo ogni whitespace e ogni "a capo"
 
         printf("Inserisci mq dell'appartamento %zu: ", i + 1);
         scanf("%f", &condominio[i].dim);

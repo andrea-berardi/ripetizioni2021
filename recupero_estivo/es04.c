@@ -1,21 +1,21 @@
 #include <stdio.h>
 
 int main(void) {
-    int età; // qua salviamo l'età della persona
+    int age; // qua salviamo l'age della persona
 
     do {
-        printf("Inserisci età: ");
-        scanf("%d", &età);
+        printf("Inserisci age: ");
+        scanf("%d", &age);
 
-        if (età < 0)
-            printf("Inserisci un'età valida (>=0)\n");
-    } while (età < 0); // se l'età è minore di 0, chiediamo ancora l'età
+        if (age < 0)
+            printf("Inserisci un'age valida (>=0)\n");
+    } while (age < 0); // se l'age è minore di 0, chiediamo ancora l'age
 
     while (1) {
         int scelta;
 
         printf("\n"); // solo per separare un input dal successivo
-        printf("VALUTAZIONE ETÀ\n");
+        printf("VALUTAZIONE age\n");
         printf("1) Maggiorenne o Minorenne?\n");
         printf("2) Bambino, Adolescente, Adulto o Anziano?\n");
         printf("3) Per cosa può votare?\n");
@@ -26,7 +26,7 @@ int main(void) {
 
         switch (scelta) {
             case 1: // controlliamo se è maggiorenne o minorenne
-                if (età >= 18)
+                if (age >= 18)
                     printf("-> Maggiorenne\n");
                 else
                     printf("-> Minorenne\n");
@@ -34,23 +34,23 @@ int main(void) {
                 break;
 
             case 2: // diciamo se è bambino, adolescente, adulto o anziano
-                if (età < 10) // il controllo iniziale dell'età ci garantisce che non sarà minore di 0
+                if (age < 10) // il controllo iniziale dell'age ci garantisce che non sarà minore di 0
                     printf("-> Bambino\n");
-                else if (età >= 10 && età <= 25)
+                else if (age >= 10 && age <= 25)
                     printf("-> Adolescente\n");
-                else if (età > 25 && età <= 70)
+                else if (age > 25 && age <= 70)
                     printf("-> Adulto\n");
-                else // if (età > 70)
+                else // if (age > 70)
                     printf("-> Anziano\n");
 
                 break;
 
             case 3: // diciamo per cosa può votare
-                if (età < 18)
+                if (age < 18)
                     printf("-> Non può votare\n");
-                if (età >= 18)
+                if (age >= 18)
                     printf("-> Può votare per la Camera dei Deputati\n");
-                if (età >= 25)
+                if (age >= 25)
                     printf("-> Può votare per il Senato della Repubblica\n");
 
                 break;

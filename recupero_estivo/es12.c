@@ -41,6 +41,10 @@ int main(void) {
         scanf("%f", &prezzo[i]);
 
         titolo[i] = malloc(LEN * sizeof(char)); // allochiamo 50 chars per l'elemento i dell'array
+        if (titolo[i] == NULL) { // se è NULL abbiamo avuto un errore
+            printf("Errore durante l'allocazione del vettore\n");
+            exit(4); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
+        }
         printf("Inserisci il titolo del %zu° film (<50 caratteri): ", i + 1);
         scanf(" %[^\n]s", titolo[i]); // ignoriamo ogni whitespace e ogni "a capo"
 

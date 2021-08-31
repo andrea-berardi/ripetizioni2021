@@ -46,7 +46,7 @@ int main(void) {
             exit(4); // usciamo con un valore diverso da 0 per rendere chiaro che c'è stato un errore
         }
         printf("Inserisci il titolo del %zu° film (<50 caratteri): ", i + 1);
-        scanf(" %[^\n]50s", titolo[i]); // ignoriamo ogni whitespace e ogni "a capo"
+        scanf(" %[^\n]s", titolo[i]); // ignoriamo ogni whitespace e ogni "a capo"
 
         do { // usiamo un do-while perché vogliamo che il ciclo venga eseguito almeno una volta
             printf("Inserisci il genere del %zu° film\n", i + 1);

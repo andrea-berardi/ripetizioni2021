@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main(void) {
-    int n;
+    float n;
     printf("Numero da triplicare: ");
-    scanf("%d", &n);
-    printf("%d\n", n * 3);
+    scanf("%f", &n);
+    printf("%.1f\n", n * 3);
 
     return 0;
 }

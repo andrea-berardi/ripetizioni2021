@@ -13,8 +13,8 @@ Ho scelto questo testo perché... nulla, è quello usato nelle classi degli alun
 Di seguito l'elenco degli esercizi svolti, nella dir `esercizi_libro`, a sua volta suddivisa in cartelle per le varie pagine:
 
 - pag. 302
-  - [ ] es. 01
-  - [ ] es. 02
+  - [x] es. 01
+  - [x] es. 02
   - [ ] es. 03
   - [ ] es. 04
   - [x] es. 06

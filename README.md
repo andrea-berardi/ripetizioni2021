@@ -39,7 +39,7 @@ Di seguito l'elenco degli esercizi svolti, nella dir `esercizi_libro`, a sua vol
 
 Esercizi risolti della cartella `recupero_estivo` - tutti.
 
-Questi sono esercizi lasciati da una docente agli alunni con il debito formativo in Informatica frequentanti la classe terza. Sono esercizi semplici ma non possono essere risolti nel modo migliore perché devo aderire al programma svolto. Nei paragrafi successivi chiarisco la situazione.
+Questi sono esercizi lasciati da una docente a degli alunni, frequentanti la classe terza, con il debito formativo in Informatica. Sono esercizi semplici ma non possono essere risolti nel modo migliore perché devo aderire al programma svolto. Nei paragrafi successivi chiarisco la situazione.
 
 - [x] Esercizio 01
 - [x] Esercizio 02

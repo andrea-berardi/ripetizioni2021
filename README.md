@@ -32,8 +32,8 @@ Di seguito l'elenco degli esercizi svolti, nella dir `esercizi_libro`, a sua vol
   - [x] es. 29
   - [x] es. 30
 - pag. 307
-  - [ ] es. 64
-  - [ ] es. 65
+  - [x] es. 64
+  - [x] es. 65
 
 ## Esercizi per Recupero Estivo
 

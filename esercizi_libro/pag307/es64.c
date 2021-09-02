@@ -11,7 +11,6 @@ typedef struct {
     float prezzo;
 } Computer;
 
-
 int main(void) {
     int n; // numero di computer
     printf("Numero di computer: ");

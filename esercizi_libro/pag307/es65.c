@@ -6,7 +6,6 @@ typedef struct {
     float volume;
 } Oggetto;
 
-
 int main(void) {
     int n; // numero di oggetti
     printf("Numero di oggetti: ");

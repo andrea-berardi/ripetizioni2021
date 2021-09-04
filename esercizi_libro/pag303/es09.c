@@ -1,3 +1,5 @@
+// es. 9, pag. 303
+
 #include <stdio.h>
 
 typedef struct {

@@ -1,6 +1,5 @@
-// Dati N studenti partecipanti a una gara sportiva di velocità (nome studente, categoria,
-// tempo), visualizzare il tempo dello studente vincitore (tempo minimo) tra gli studenti della
-// categoria “allievi”.
+// es. 29, pag. 304
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

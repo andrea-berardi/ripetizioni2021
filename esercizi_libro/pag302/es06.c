@@ -1,3 +1,5 @@
+// es. 6, pag. 302
+
 #include <stdio.h>
 
 #define N 3 // numero di oggetti, dato dall'esercizio

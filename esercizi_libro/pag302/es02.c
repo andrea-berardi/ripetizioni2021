@@ -1,3 +1,5 @@
+// es. 2, pag. 302
+
 #include <stdio.h>
 
 const float φ = 2.598; // numero fisso dell'area dell'esagono (φ, Phi)

@@ -1,3 +1,5 @@
+// es. 26, pag. 304
+
 #include <stdio.h>
 
 int main(void) {

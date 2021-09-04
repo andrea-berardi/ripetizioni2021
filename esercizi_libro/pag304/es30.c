@@ -1,3 +1,5 @@
+// es. 30, pag. 304
+
 #include <stdio.h>
 #include <stdlib.h>
 

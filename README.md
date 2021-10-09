@@ -70,5 +70,5 @@ Non è nemmeno detto che le soluzioni corrispondano a ciò che ho spiegato duran
 Tutti gli esercizi sono comunque ANSI C, ~per cui anche compilando con il compiler per C++ funzioneranno (in teoria, si spera)~.
 **Rimossa compatbilità con C++**: rimossi tutti i cast alle `malloc()` non necessari in C ma richiesti in C++. Vedi [Issue #2](https://github.com/andrea-berardi/ripetizioni2021/issues/2#issuecomment-905052323).
 
-~Non fatemi mettere una licenza, per l'amor di Dio, riuscite a gestirvi anche senza~ Aggiunga licenza AGPL v3.  
+~Non fatemi mettere una licenza, per l'amor di Dio, riuscite a gestirvi anche senza~ Aggiunta licenza AGPL v3.  
 Per problemi riguardo agli esercizi aprite una Issue o fate una PR. Ma anche no, grazie.
